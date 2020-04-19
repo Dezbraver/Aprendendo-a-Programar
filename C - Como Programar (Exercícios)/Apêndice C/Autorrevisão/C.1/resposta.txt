@@ -1,0 +1,7 @@
+- Questão C.1 -
+
+a) 10 2 8 16
+
+b) 1
+
+c) base do sistema numérico.

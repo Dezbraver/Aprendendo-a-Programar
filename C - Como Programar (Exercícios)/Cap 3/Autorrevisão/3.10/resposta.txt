@@ -1,0 +1,3 @@
+- Questão 3.10 -
+
+O erro está no fato de 'z' não ser decrementada tornando o loop infinito.

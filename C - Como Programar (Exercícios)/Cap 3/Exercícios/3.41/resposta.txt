@@ -1,0 +1,4 @@
+- Questão 3.41 -
+
+Ele imprimiu a sequência até 1073741824, imprimiu um número grande e negativo e
+então passou a imprimir o número 0.

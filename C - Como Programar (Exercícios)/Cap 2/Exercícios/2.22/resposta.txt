@@ -1,0 +1,3 @@
+- Questão 2.22 -
+
+Imprime a metade da direita de uma pirâmide 2d ou seja um triângulo retângulo, preenchido com asteriscos.

@@ -1,0 +1,76 @@
+- Questão 4.34 -
+
+Criar uma variável para controlar a execução do (while) mesmo que a
+condição principal --- que é a cópia da condição do (do...while) --- seja falsa.
+
+e.g.:
+int s = 1;
+
+Obs.: O laço deverá ser executado quando s == 1, mesmo se a condição principal
+for falsa.
+
+Criar a estrutura de controle de repetição (while) com uma condição composta no
+formato: ( condição do (do...while) || condição com a nova variável criada ).
+No corpo do while adicionar uma verificação do valor da nova variável e atribuir
+um valor diferente para ela (o valor deve tornar falsa a condição que utiliza
+essa variável).
+
+e.g.:
+while ( i++ <= 5 || s == 1 )
+{
+  if ( s == 1 )
+    s = 0;
+}
+
+Obs.: Mesmo com s == 0, o laço deverá executar até que a condição principal seja
+falsa também, por isso utilizamos o operador OR lógico (||).
+
+Em seguida deve-se copiar o conteúdo do corpo do (do...while) para dentro do
+corpo do (while) logo após a verificação da nova variável de controle. Caso o
+incremento/decremento esteja dentro da condição...
+
+e.g.:
+while ( i++ <= 5 || s == 1 )
+{
+  if ( s == 1 )
+    s = 0;
+  ...
+}
+
+Obs.: (...) significa as demais instruções do laço.
+
+Retire-o e incremente/decremente dentro do corpo do (while), evitando
+assim problemas por mal uso do incremento/decremento.
+Lembre-se também de alterar, se necessário, o valor de inicialização da variável
+de controle para que se adeque ao seu incremento/decremento;
+
+e.g.:
+while ( i <= 5 || s == 1 )
+{
+  if ( s == 1 )
+    s = 0;
+  ...
+  i++;
+}
+
+================================================================================
+
+O problema é que a condição em uma estrutura (do...while) é executada após o
+corpo de (do) portanto o corpo de (do) será executado uma vez mesmo que a
+condição seja falsa.
+
+================================================================================
+
+Usaria uma estrutura de controle de seleção única (if) que teria a mesma
+condição da estrutura (do...while) e passaria a estrutura (do...while) para o
+corpo de (if). Caso o incremento/decremento estivesse dentro da condição, iria
+retirá-lo e incrementaria/decrementaria dentro do corpo do (do) para evitar
+problemas por mal uso do incremento/decremento.
+Alteraria também, se necessário, o valor de inicialização da variável de
+controle para que se adeque ao incremento/decremento.
+
+e.g.:
+if ( i <= 5 )
+  do {
+      ...
+  } while ( i <= 5 );

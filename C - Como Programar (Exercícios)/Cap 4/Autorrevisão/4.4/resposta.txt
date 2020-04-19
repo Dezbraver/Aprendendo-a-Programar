@@ -1,0 +1,33 @@
+- Questão 4.4 -
+
+a)
+Erro:
+Uso de ponto e vírgula (;) logo após os parênteses de condição da estrutura
+while.
+
+Como corrigir:
+Substituir o ponto e vírgula (;) por um caractere de abertura de chave ({).
+
+b)
+Erro:
+Utilização de tipo ponto flutuante em variável de controle.
+
+Como corrigir:
+Utilizar valores inteiros como variável de controle e adequar a maneira q a
+variável será apresentada. Para ser apresentada como ponto flutuante deverá ser
+da seguinte forma:
+(float) y * .1
+
+c)
+Erro:
+A falta do comando break nas instruções do case 1.
+
+Como corrigir:
+Adicionar o comando break ao final das instruções do case 1.
+
+d)
+Erro:
+Má utilização do operador relacional (<) na condição do while.
+
+Como corrigir:
+Utilizar o operador (<=) em vez de (<).

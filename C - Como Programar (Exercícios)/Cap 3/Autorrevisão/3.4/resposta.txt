@@ -1,0 +1,11 @@
+- Questão 3.4 -
+
+a) int soma, x;
+
+b) x = 1;
+
+c) soma = 0;
+
+d) soma += x;
+
+e) printf( "A soma eh: %d", soma );

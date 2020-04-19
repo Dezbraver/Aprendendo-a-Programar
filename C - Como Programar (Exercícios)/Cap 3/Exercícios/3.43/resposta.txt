@@ -1,0 +1,7 @@
+- Questão 3.43 -
+
+Somente um nome de variável simples pode ser usado como operando de um operador
+de incremento ou decremento.
+printf( "%d", ++x + y );
+ou
+printf( "%d", x + ++y );

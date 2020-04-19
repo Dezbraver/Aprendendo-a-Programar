@@ -1,0 +1,54 @@
+- Questão 3.32 -
+
+Original:
+if ( y == 8 )
+if ( x == 5 )
+printf( "@@@@@\n" );
+else
+printf( "#####\n" );
+printf( "$$$$$\n" );
+printf( "&&&&&\n" );
+
+a)
+if ( y == 8 )
+  if ( x == 5 )
+    printf( "@@@@@\n" );
+  else
+    printf( "#####\n" );
+printf( "$$$$$\n" );
+printf( "&&&&&\n" );
+
+b)
+if ( y == 8 )
+  if ( x == 5 )
+    printf( "@@@@@\n" );
+  else
+  {
+    printf( "#####\n" );
+    printf( "$$$$$\n" );
+    printf( "&&&&&\n" );
+  }
+
+c)
+if ( y == 8 )
+  if ( x == 5 )
+    printf( "@@@@@\n" );
+  else
+  {
+    printf( "#####\n" );
+    printf( "$$$$$\n" );
+  }
+printf( "&&&&&\n" );
+
+d)
+if ( y == 8 )
+{
+  if ( x == 5 )
+    printf( "@@@@@\n" );
+}
+else
+{
+  printf( "#####\n" );
+  printf( "$$$$$\n" );
+  printf( "&&&&&\n" );
+}

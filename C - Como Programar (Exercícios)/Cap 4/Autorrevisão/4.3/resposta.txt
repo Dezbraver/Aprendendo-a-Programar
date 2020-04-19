@@ -1,0 +1,38 @@
+- Questão 4.3 -
+
+a)
+soma = 0;
+
+for ( contador = 1; contador <= 99; contador += 2 )
+  soma += contador;
+
+b)
+printf( "%-15.1f\n", 333.546372 );
+printf( "%-15.2f\n", 333.546372 );
+printf( "%-15.3f\n", 333.546372 );
+printf( "%-15.4f\n", 333.546372 );
+printf( "%-15.5f\n", 333.546372 );
+
+Os valores impressos são:
+333.5
+333.55
+333.546
+333.5464
+333.54637
+
+c)
+printf( "%10.2f\n", pow( 2.5, 3 ) );
+
+O valor impresso é:
+15.62
+
+d)
+x = 1;
+
+while ( x <= 20 )
+  x % 5 ? printf( "%d\t", x++ ) : printf( "%d\n", x++ );
+
+e)
+
+for ( contador = 1; contador <= 20; ++contador )
+  contador % 5 ? printf( "%d\t", contador ) : printf( "%d\n", contador );

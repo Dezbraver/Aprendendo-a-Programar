@@ -1,0 +1,13 @@
+- Questão 4.1 -
+
+a) definida
+
+b) indefinida
+
+c) variável contadora
+
+d) continue
+
+e) break
+
+f) estrutura de seleção switch

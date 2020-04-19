@@ -1,0 +1,124 @@
+- Questão 3.27 -
+
+Top:
+Lê uma série de 10 números não repetidos e determina quais são os 2 maiores
+números dentre os 10.
+
+1º Refinamento:
+Declara e/ou inicializa as variáveis.
+Obtêm os valores de 10 números.
+Determina quais são os 2 maiores números dentre os 10.
+Apresenta os dois maiores números ao usuário.
+
+2º Refinamento:
+Declara e inicializa 'contador' como 1.
+Declara e inicializa 'sentinela' como 0.
+Declara 'numero'.
+Declara 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i' e 'j'.
+Declara 'primeiro_maior'.
+Declara 'segundo_maior'.
+
+Enquanto 'contador' for menor ou igual a 10:
+  Enquanto 'sentinela' for igual a 0:
+    Obtêm o valor de 'numero'.
+
+    Se 'contador' for igual a 1:
+      Atribui a 'a' o valor em 'numero'.
+      Atribui a 'primeiro_maior' o valor em 'numero'.
+      Atribui a 'sentinela' o valor 1.
+
+    Se 'contador' for igual a 2:
+      Se 'numero' for diferente de 'a':
+        Atribui a 'b' o valor em 'numero'.
+        Atribui a 'segundo_maior' o valor em 'numero'.
+        Atribui a 'sentinela' o valor 1.
+
+    Se 'contador' for igual a 3:
+      Se 'numero' for diferente de 'a':
+        Se 'numero' for diferente de 'b':
+          Atribui a 'c' o valor em 'numero'.
+          Atribui a 'sentinela' o valor 1.
+
+    Se 'contador' for igual a 4:
+      Se 'numero' for diferente de 'a':
+        Se 'numero' for diferente de 'b':
+          Se 'numero' for diferente de 'c':
+            Atribui a 'd' o valor em 'numero'.
+            Atribui a 'sentinela' o valor 1.
+
+    Se 'contador' for igual a 5:
+      Se 'numero' for diferente de 'a':
+        Se 'numero' for diferente de 'b':
+          Se 'numero' for diferente de 'c':
+            Se 'numero' for diferente de 'd':
+              Atribui a 'e' o valor em 'numero'.
+              Atribui a 'sentinela' o valor 1.
+
+    Se 'contador' for igual a 6:
+      Se 'numero' for diferente de 'a':
+        Se 'numero' for diferente de 'b':
+          Se 'numero' for diferente de 'c':
+            Se 'numero' for diferente de 'd':
+              Se 'numero' for diferente de 'e':
+                Atribui a 'f' o valor em 'numero'.
+                Atribui a 'sentinela' o valor 1.
+
+    Se 'contador' for igual a 7:
+      Se 'numero' for diferente de 'a':
+        Se 'numero' for diferente de 'b':
+          Se 'numero' for diferente de 'c':
+            Se 'numero' for diferente de 'd':
+              Se 'numero' for diferente de 'e':
+                Se 'numero' for diferente de 'f':
+                  Atribui a 'g' o valor em 'numero'.
+                  Atribui a 'sentinela' o valor 1.
+
+    Se 'contador' for igual a 8:
+      Se 'numero' for diferente de 'a':
+        Se 'numero' for diferente de 'b':
+          Se 'numero' for diferente de 'c':
+            Se 'numero' for diferente de 'd':
+              Se 'numero' for diferente de 'e':
+                Se 'numero' for diferente de 'f':
+                  Se 'numero' for diferente de 'g':
+                    Atribui a 'h' o valor em 'numero'.
+                    Atribui a 'sentinela' o valor 1.
+
+    Se 'contador' for igual a 9:
+      Se 'numero' for diferente de 'a':
+        Se 'numero' for diferente de 'b':
+          Se 'numero' for diferente de 'c':
+            Se 'numero' for diferente de 'd':
+              Se 'numero' for diferente de 'e':
+                Se 'numero' for diferente de 'f':
+                  Se 'numero' for diferente de 'g':
+                    Se 'numero' for diferente de 'h':
+                      Atribui a 'i' o valor em 'numero'.
+                      Atribui a 'sentinela' o valor 1.
+
+    Se 'contador' for igual a 10:
+      Se 'numero' for diferente de 'a':
+        Se 'numero' for diferente de 'b':
+          Se 'numero' for diferente de 'c':
+            Se 'numero' for diferente de 'd':
+              Se 'numero' for diferente de 'e':
+                Se 'numero' for diferente de 'f':
+                  Se 'numero' for diferente de 'g':
+                    Se 'numero' for diferente de 'h':
+                      Se 'numero' for diferente de 'i':
+                        Atribui a 'j' o valor em 'numero'.
+                        Atribui a 'sentinela' o valor 1.
+
+  Se 'numero' for maior que 'primeiro_maior':
+    Atribui a 'segundo maior' o valor contido em 'primeiro maior'.
+    Atribui a 'primeiro maior' o valor contido em 'numero'.
+  Se não:
+    Se 'numero' for maior que 'segundo_maior':
+      Atribui a 'segundo_maior' o valor contido em 'numero'.
+
+  Pré-incrementa o valor em 'contador'.
+
+Apresenta os 10 números ao usuário.
+Apresenta os 2 maiores números ao usuário.
+
+Pausa e Finaliza a execução.
