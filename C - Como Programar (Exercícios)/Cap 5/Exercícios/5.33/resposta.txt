@@ -1,0 +1,33 @@
+- Question 5.33 -
+
+Usando somente o valor inteiro truncado da expressão ( log2 N ) + 1 conseguimos
+representar o numero máximo de tentativas para encontrar um valor dentro de um
+intervalo com N elementos. log2 N representa a quantidade de divisões por 2
+necessária para que reste apenas 1 elemento no nosso intervalo, + 1 tem como
+função especificar que o numero máximo de tentativas inclui tentar o próprio
+elemento que queremos encontrar para que o programa possa verificar se ele é de
+fato o elemento que procurávamos. Truncando este valor conseguimos o número
+máximo de tentativas necessárias para encontrar um elemento em dado intervalo N,
+pois não é possível tentar e.g.: 1.5 vezes encontrar algo, então nossa função
+somente poderia resultar em números inteiros.
+
+ƒ( N ) = ⌊( log2 N ) + 1⌋ logo:
+ƒ( 1000 ) = ⌊( log2 1000 ) + 1⌋ = 10
+
+definição de alguns intervalos:
+Obs.: O número máximo de tentativas se mantém até 2^(n + 1) - 1.
+2^0 = 1 = 1 tentativa no intervalo 1-1
+2^1 = 2 = 2 tentativas no intervalo 2-3
+2^2 = 4 = 3 tentativas no intervalo 4-7
+2^3 = 8 = 4 tentativas no intervalo 8-15
+2^4 = 16 = 5 tentativas no intervalo 16-31
+2^5 = 32 = 6 tentativas no intervalo 32-63
+2^6 = 64 = 7 tentativas no intervalo 64-127
+2^7 = 128 = 8 tentativas no intervalo 128-255
+2^8 = 256 = 9 tentativas no intervalo 256-511
+2^9 = 512 = 10 tentativas no intervalo 512-1023
+2^10 = 1024 = 11 tentativas no intervalo 1024-2047
+...
+
+Portanto, visto que 1000 está entre 2^9 e 2^10, adotamos 10 ao número máximo de
+tentativas já que 10 pertence ao intervalo 512-1023.
