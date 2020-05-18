@@ -1,0 +1,12 @@
+- Questão 6.2 -
+
+a) Falso. Um array só pode armazenar elementos de um mesmo tipo.
+
+b) Falso. Subscritos de array só podem ser valores ou expressões do tipo inteiro.
+
+c) Falso. C irá inicializar os elementos restantes com 0.
+
+d) Verdadeiro.
+
+e) Falso. Escalares não são passados por referência mas sim por valor, portanto a modificações
+feitas na função chamada não afetarão o valor do elemento na função chamadora.

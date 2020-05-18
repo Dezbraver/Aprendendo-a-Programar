@@ -1,0 +1,15 @@
+- Questão 6.1 -
+
+a) arrays
+
+b) nomes, tipos
+
+c) subscrito
+
+d) constante simbólica
+
+e) ordenação
+
+f) pesquisar
+
+g) duplo subscrito

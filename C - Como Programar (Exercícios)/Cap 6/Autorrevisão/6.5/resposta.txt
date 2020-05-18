@@ -1,0 +1,27 @@
+- Questão 6.5 -
+
+a)
+Erro: Uso de ponto e vírgula no final da diretiva ao pré-processador #define.
+Correção: Remoção do ponto e vírgula.
+
+b)
+Erro: Atribuição de um valor à uma constante simbólica usando uma instrução de atribuição.
+Correção: Remoção da instrução e criação de uma constante simbólica com texto
+substituto igual ao valor atribuído anteriormente, como em #define SIZE 10.
+
+c)
+Erro: Referência a um elemento fora dos limites do array (b[10]).
+Correção: Substituir o operador relacional do laço por (<) ou
+alterar o valor final da variável de controle para 9.
+
+d)
+Erro: Uso de ponto e vírgula no final da diretiva ao pré-processador #include.
+Correção: Remoção do ponto e vírgula.
+
+e)
+Erro: Uso de notação incorreta para referenciar um elemento em um array de duplo substrito, a[ 1, 1 ].
+Correção: Utilizar a notação correta, a[1][1].
+
+f)
+Erro: Uso de operador de atribuição em uma diretiva ao pré-processador #define.
+Correção: Remoção do operador de atribuição, resultando em #define VALUE 120.

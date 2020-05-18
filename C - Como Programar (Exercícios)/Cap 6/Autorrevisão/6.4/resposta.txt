@@ -1,0 +1,25 @@
+- Questão 6.4 -
+
+a) int table[SIZE][SIZE];
+
+b) Nove elementos. printf( "total = %d\n", SIZE * SIZE );
+
+c)
+for ( x = 0; x < SIZE; ++x )
+    for ( y = 0; y < SIZE; ++y )
+        table[x][y] = x + y;
+
+d)
+for ( x = 0; x < SIZE; ++x )
+    for ( y = 0; y < SIZE; ++y )
+        printf( "table[%d][%d] = %d\n", x, y, table[x][y] );
+/* Saída abaixo */
+table[0][0] = 1
+table[0][1] = 8
+table[0][2] = 0
+table[1][0] = 2
+table[1][1] = 4
+table[1][2] = 6
+table[2][0] = 5
+table[2][1] = 0
+table[2][2] = 0
