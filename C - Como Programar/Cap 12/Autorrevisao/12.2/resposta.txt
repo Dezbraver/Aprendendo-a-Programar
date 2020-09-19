@@ -1,0 +1,5 @@
+- Questão 12.2 -
+
+Na lista encadeada dados podem ser adicionados e excluídos em qualquer parte da lista.
+Em uma pilha os dados só podem ser adicionados e excluídos no topo da pilha, ou seja
+se trata de uma lista encadeada com restrições de inserção e exclusão de dados.

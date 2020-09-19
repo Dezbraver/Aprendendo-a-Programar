@@ -1,0 +1,21 @@
+- Questão 11.2 -
+
+a) Falso. Pode-se ler dados da entrada padrão usando o ponteiro stdin.
+
+b) Falso. Os 3 streams padrão são abertos assim que a execução do programa é iniciada.
+
+c) Falso. O arquivo é fechado ao fim da execução do programa.
+
+d) Falso. Usando a função rewind conseguimos retornar o ponteiro de posição
+do arquivo para o byte 0, no início do arquivo.
+
+e) Verdadeiro.
+
+f) Falso. Apenas arquivos de acesso aleatório oferecem essa capacidade.
+
+g) Verdadeiro.
+
+h) Falso. Os registros em arquivos de acesso aleatório possuem comprimento fixo sim.
+
+i) Falso. A função fseek pode fazer a busca a partir do início do arquivo (SEEK_SET),
+da posição atual (SEEK_CUR) e do fim do arquivo (SEEK_END).

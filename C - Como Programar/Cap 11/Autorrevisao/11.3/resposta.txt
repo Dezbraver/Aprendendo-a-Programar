@@ -1,0 +1,13 @@
+- Questão 11.3 -
+
+a) ofPtr = fopen( "oldmast.dat", "r" );
+
+b) tfPtr = fopen( "trans.dat", "r" );
+
+c) nfPtr = fopen( "newmast.dat", "w" );
+
+d) fscanf( ofPtr, "%d%s%f", &accountNum, name, &currentBalance );
+
+e) fscanf( tfPtr, "%d%f", &accountNum, &realAmount );
+
+f) fprintf( nfPtr, "%d %s %.2f", accountNum, name, currentBalance );

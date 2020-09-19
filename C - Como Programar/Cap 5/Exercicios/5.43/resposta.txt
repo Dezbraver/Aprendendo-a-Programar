@@ -1,0 +1,4 @@
+- Questão 5.43 -
+
+O programa realiza a multiplicação de x por y usando a função recursiva
+[mystery] recursão. Entretanto, não funciona quando y é um número negativo.

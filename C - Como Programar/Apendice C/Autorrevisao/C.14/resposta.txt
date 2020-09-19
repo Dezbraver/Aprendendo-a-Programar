@@ -1,0 +1,16 @@
+- Questão C.14 -
+
+decimal = 417
+
+binário = 256 128 64 32 16 8 4 2 1
+           1   1   0  1  0 0 0 0 1 = 110100001
+         %161%33     %1         %0
+
+complemento de um: 001011110
+
+complemento de dois: 001011111
+
+verificação binário original + complemento de dois:
+ 110100001
++001011111
+R000000000

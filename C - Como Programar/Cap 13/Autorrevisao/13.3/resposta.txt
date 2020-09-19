@@ -1,0 +1,30 @@
+- Questão 13.3 -
+
+a) #define YES 1
+
+b) #define NO 0
+
+c) #include "common.h"
+
+d) #line 3000
+
+e)
+#if defined( TRUE )
+    #undef TRUE
+    #define TRUE 1
+#endif
+
+f)
+#ifdef TRUE
+    #undef TRUE
+    #define TRUE 1
+#endif
+
+g)
+#if TRUE
+    #define FALSE 0
+#else
+    #define FALSE 1
+#endif
+
+h) #define VOLUME_CUBO( x ) ( ( x ) * ( x ) * ( x ) )

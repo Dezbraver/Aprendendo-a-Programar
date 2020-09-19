@@ -1,3 +1,0 @@
-- Questão 5.40 -
-
-Sim. O programa entra em recursão infinita.

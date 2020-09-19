@@ -1,0 +1,12 @@
+- Questão 7.2 -
+
+a) Falso. O operador não pode ser aplicado a variáveis
+com a classe de armazenamento register.
+
+b) Falso. Um ponteiro declarado como void jamais pode
+ser desreferenciado
+
+c) Falso. A atribuição de ponteiros de diferentes tipos
+necessita de uma operação (cast) para igualar os tipos,
+pois exceto os ponteiros do tipo void, os ponteiros só
+podem ser atribuídos a outros do mesmo tipo.

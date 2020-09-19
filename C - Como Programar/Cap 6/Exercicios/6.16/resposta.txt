@@ -1,0 +1,17 @@
+- Questão 6.16 -
+
+ 1º sales[0][0]
+ 2º sales[0][1]
+ 3º sales[0][2]
+ 4º sales[0][3]
+ 5º sales[0][4]
+ 6º sales[1][0]
+ 7º sales[1][1]
+ 8º sales[1][2]
+ 9º sales[1][3]
+10º sales[1][4]
+11º sales[2][0]
+12º sales[2][1]
+13º sales[2][2]
+14º sales[2][3]
+15º sales[2][4]

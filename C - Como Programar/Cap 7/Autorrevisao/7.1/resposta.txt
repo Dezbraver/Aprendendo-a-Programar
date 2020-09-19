@@ -1,0 +1,7 @@
+- Questão 7.1 -
+
+a) endereço
+
+b) NULL, 0, endereço de uma variável.
+
+c) 0

@@ -1,3 +1,0 @@
-- Questão 3.6 -
-
-produto = 25,x = 6;

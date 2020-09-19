@@ -1,0 +1,15 @@
+- Questão 8.4 -
+
+a) Erro: O caractere nulo não foi copiado.
+Correção: Ajustar o número de caracteres copiados para 6 (5 caracteres + '\n').
+
+b) Erro: usar o especificador de conversão de string para imprimir um caractere.
+Correção: Usar o especificador de conversão de caractere ou usar aspas para se
+referir a uma string de um caractere.
+
+c) Erro: Tecnicamente o erro seria que o array não é grande o suficiente mas o
+livro traduzido não apresenta este erro.
+Correção: Seria utilizar um array maior ou copiar uma string menor para o array.
+
+d) Erro: Quando as string são iguais strcmp retorna 0.
+Correção: Realizar operação lógica de igualdade com 0.

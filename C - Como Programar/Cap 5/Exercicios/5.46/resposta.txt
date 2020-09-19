@@ -1,0 +1,44 @@
+- Questão 5.46 -
+
+a)
+Erro: A definição da função não possui o tipo de retorno.
+
+Correção: Inserir o tipo de retorno ao início da definição da função, sendo
+idêntico ao tipo de retorno especificado no protótipo da função.
+
+b)
+Erro: Utilização de duas classes de armazenamento na declaração da variável x.
+
+Correção: Caso a variável deva ser armazenada em um registrador, deve-se manter
+a classe de armazenamento register, se não for necessário, deve-se retirar a
+classe register (manter a classe auto é opcional).
+
+c)
+Erro: A função (srand) não é a função correta para se gerar inteiros aleatórios.
+
+Correção: Substituir a função (srand) pela função rand().
+
+d)
+Erro: Não segue as regras de promoção da C. Quando o valor y é atribuído à x,
+ele trunca a parte fracionária do valor de x. Quando é feita a conversão no
+printf a variável x convertida novamente para double será 123.00000 e não
+123.45678 como esperado.
+
+Correção: Alterar o tipo da variável x para double e retirar o operador cast
+(double) da instrução printf.
+
+e)
+Erro: Existem duas definições de variáveis locais com o mesmo nome (variáveis
+definidas como parâmetro para uma função também tem seu escopo local).
+
+Correção: mudar o nome de uma das variáveis locais e corrigir o nome no retorno
+da função. Porém, se o propósito da função for multiplicar a variável local por
+ela mesma, deverá ser removida a segunda definição da variável de dentro da
+função.
+
+f)
+Erro: Caso n seja diferente de 0 a função recursiva nunca atingirá o caso base.
+
+Correção: Corrigir a chamada recursiva de modo que em algum momento ela venha a
+atingir o caso base, n + sum( n - 1 ) caso n seja positivo ou n + sum( n + 1 )
+caso n seja negativo.

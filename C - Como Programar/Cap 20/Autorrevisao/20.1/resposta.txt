@@ -1,0 +1,23 @@
+- Questão 20.1 -
+
+a) herança
+
+b) protected
+
+c) é-um ou herança
+
+d) tem-um, composição ou agregação
+
+e) hierárquico
+
+f) public
+
+g) private
+
+h) herança múltipla 
+
+i) construtor
+
+j) public, protected
+
+k) protected, protected

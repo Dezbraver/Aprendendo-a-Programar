@@ -1,0 +1,59 @@
+- Questão 3.15 -
+
+a) Top:
+Obter dois números do teclado, realizar sua soma e exibir o resultado
+
+1º Refinamento:
+- Inicializar variável
+- Obter os números
+- Calcular a soma
+- Imprimir os resultados
+
+2º Refinamento:
+- inicializar total como zero
+
+- Ler o primeiro número
+- Ler o segundo número
+
+- atribui a soma do primeiro com segundo número ao total
+
+- Imprime o valor total
+
+b) Top:
+Obter dois números do teclado e exibir qual deles é o maior
+
+1º Refinamento:
+- Obter dois números do teclado
+- Decidir e imprimir qual dos dois é maior
+
+2º Refinamento:
+- Ler o primeiro número
+- Ler o segundo número
+
+- Se o primeiro número for maior que o segundo número
+    Imprima "O primeiro número é o maior"
+  Se não
+    Se o segundo número for maior que o primeiro número
+      Imprima "O segundo número é o maior"
+
+c) Top:
+Determinar e exibir a soma de uma série de números positivos inseridos a
+partir do teclado. (Usar -1 como valor sentinela)
+
+1º Refinamento:
+- Inicializar variável
+- Obter uma série de números positivos a partir do teclado e calcular sua soma
+- Imprimir o total final da soma
+
+2º Refinamento:
+- Inicializar total como zero
+
+- Ler o primeiro número
+
+- Enquanto o número for diferente de -1
+    Se o número for positivo
+      Soma esse número ao total acumulado
+
+      Lê o próximo número
+
+- Imprime o valor total

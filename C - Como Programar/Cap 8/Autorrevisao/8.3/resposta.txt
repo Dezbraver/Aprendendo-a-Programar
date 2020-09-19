@@ -1,0 +1,16 @@
+- Questão 8.3 -
+
+a) Imprime o primeiro caractere da string s1 Maiúculo seguido pelo restante da string.
+Resultado: Jack.
+
+b) Copia a string " jill" de s2 para s3 e imprime o valor de s3.
+Resultado: s3 = " jill".
+
+c) Copia a string de s1 para s3 depois concatena o a string " and " à s1 e depois contatena s2 à nova string s1.
+Resultado: s3 = "jack and jill".
+
+d) Imprime o tamanho de s1 mais o tamanho de s2.
+Resultado: 8
+
+e) Imprime o tamanho de s3.
+Resultado: 13

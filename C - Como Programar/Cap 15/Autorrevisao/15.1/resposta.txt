@@ -1,0 +1,13 @@
+- Questão 15.1 -
+
+a) sobrecarga
+
+b) operador unário de resolução de escopo (::)
+
+c) template
+
+d) A UML
+
+e) projeto orientado a objeto (OOD)
+
+f) classes

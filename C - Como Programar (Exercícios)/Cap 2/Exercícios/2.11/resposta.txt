@@ -1,7 +1,0 @@
-- Questão 2.11 -
-
-a)Divisão (/) e Módulo (%)
-
-b)O conjunto mais interno
-
-c)Variável

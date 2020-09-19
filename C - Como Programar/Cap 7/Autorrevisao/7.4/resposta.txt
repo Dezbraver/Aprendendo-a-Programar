@@ -1,0 +1,16 @@
+- Questão 7.4 -
+
+a) float *fPtr;
+
+b) fPtr = &number1;
+
+c) printf( "%f", *fPtr );
+
+d) number2 = *fPtr;
+
+e) printf( "%f", number2 );
+
+f) printf( "%p", &number1 );
+
+g) printf( "%p", fPtr );
+Sim.

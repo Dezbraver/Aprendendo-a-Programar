@@ -1,0 +1,9 @@
+- Questão 3.14 -
+
+a) Imprimir "Digite dois números"
+
+b) Calcular a soma de x, y e z e atribuir o resultado a p
+
+c) Se m for maior que o dobro de v
+
+d) Ler o valor de s, r e t

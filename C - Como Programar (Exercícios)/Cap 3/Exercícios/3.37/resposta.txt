@@ -1,4 +1,0 @@
-- Questão 3.37 -
-
-Em algo em torno de 22 centésimos de segundo o computador contou de 1 a 100
-milhões.

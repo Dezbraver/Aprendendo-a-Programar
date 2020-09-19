@@ -1,0 +1,25 @@
+- Questão 11.1 -
+
+a) 0s, 1s
+
+b) Bit
+
+c) Arquivo
+
+d) Caracteres
+
+e) Banco de dados
+
+f) fclose
+
+g) fscanf
+
+h) fgetc
+
+i) fgets
+
+j) fopen
+
+k) fread
+
+l) fseek

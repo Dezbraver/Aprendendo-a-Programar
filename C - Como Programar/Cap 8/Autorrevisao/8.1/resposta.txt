@@ -1,0 +1,48 @@
+- Questão 8.1 -
+
+a) c = toupper( c );
+
+b) printf( "%c%s%s\n", c, isdigit( c )? " é um ": " não é um ", "digito" );
+
+c) printf( "%ld\n", atol( "1234567" ) );
+
+d) printf( "%c%s%s\n", c, iscntrl( c )? " é um ": " não é um ",
+           "caractere de controle" );
+
+e) fgets( s1, 100, stdin );
+
+f) puts( s1 );
+
+g) ptr = strrchr( s1, c );
+
+h) putchar( c );
+
+i) printf( "%f", atof( "8.63582" ) );
+
+j) printf( "%c%s%s\n", c, isalpha( c )? " é uma ": " não é uma ", "letra" );
+
+k) c = getchar();
+
+l) ptr = strstr( s1, s2 );
+
+m) printf( "%c%s%s\n", c,isprint( c )? " é um ": " não é um ", "caractere imprimível" );
+
+n) sscanf( "1.27 10.3 9.432", "%lf%lf%lf", &d, &e, &f );
+
+o) strcpy( s1, s2 );
+
+p) ptr = strpbrk( s1, s2 );
+
+q) printf( "%d", strcmp( s1, s2 ) );
+
+r) ptr = strchr( s1, c );
+
+s) sprintf( s1, "%7d%7d%7d", x, y, z );
+
+t) strncat( s1, s2, 10 );
+
+u) printf( "%u", strlen( s1 ) + 1 );
+
+v) printf( "%d", atoi( "-21" ) );
+
+w) ptr = strtok( s2, "," );

@@ -1,5 +1,0 @@
-- Questão 5.42 -
-
-Recebe os caracteres que o usuário digitar até que ele digite o caractere
-(EOF). Após o usuário digitar o caractere (EOF) o programa irá Imprimir a
-sequência de caracteres recebida pelo usuário do último para o primeiro.

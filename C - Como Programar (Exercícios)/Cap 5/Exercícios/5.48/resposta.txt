@@ -1,7 +1,0 @@
-- Questão 5.48 -
-
-A utilização da recursão de cauda ajuda a evitar o estouro de pilha.
-
-A recursão comum é mais fácil de compreender
-
-A versão iterativa é provavelmente mais rápida que as duas versões acima.

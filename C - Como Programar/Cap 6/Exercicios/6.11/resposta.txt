@@ -1,0 +1,29 @@
+- Questão 6.11 -
+
+a)
+for ( pass = 1; pass < SIZE; ++pass )
+    for ( i = 0; i < SIZE - pass; ++i )
+            if ( a[ i ] > a[ i + 1 ] )
+            {
+                hold = a[ i ];
+                a[ i ] = a[ i + 1 ];
+                a[ i + 1 ] = hold;
+            } /* end (if) */
+
+b)
+for ( pass = 1; pass < SIZE; ++pass )
+{
+    changes = 0;
+
+    for ( i = 0; i < SIZE - pass; ++i )
+        if ( a[ i ] > a[ i + 1 ] )
+        {
+            hold = a[ i ];
+            a[ i ] = a[ i + 1 ];
+            a[ i + 1 ] = hold;
+            changes = 1;
+        } /* end (if) */
+    
+    if ( !changes )
+        break;
+} /* end (for) */

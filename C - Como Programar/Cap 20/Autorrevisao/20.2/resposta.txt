@@ -1,0 +1,14 @@
+- Questão 20.2 -
+
+a) Verdadeiro.
+
+b) Falso. É implementado por meio de composição.
+O relacionamento é-um é implementado por meio de herança.
+
+c) Falso. Um carro possui Direção e Freios logo o
+relacionamento é tem-um. O carro tem um relacionamento é-um
+com a classe Veículo pois um Carro ée de fato um Veículo.
+
+d) Verdadeiro.
+
+e) Verdadeiro.

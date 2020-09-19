@@ -1,0 +1,19 @@
+- Questão 18.1 -
+
+a) inicializadores de membro
+
+b) friend
+
+c) inicializado
+
+d) static
+
+e) this
+
+f) const
+
+g) construtor default
+
+h) não static
+
+i) antes

@@ -1,0 +1,16 @@
+- Questão 3.19 -
+
+Top:
+Calcula o valor que os funcionários irão receber por semana dado o valor de
+vendas brutas de cada funcionário.
+
+1º Refinamento:
+Obter o valor bruto de vendas semanais de um funcionário.
+Calcular e Apresentar o valor a ser recebido por tal funcionário.
+
+2º Refinamento:
+Obter o valor bruto de vendas semanais de um funcionário
+Enquanto o valor de vendas for diferente de -1.
+  Calcular e Apresentar o valor a ser recebido pelo funcionários.
+
+  Obter o próximo valor bruto de vendas semanais de um funcionário.

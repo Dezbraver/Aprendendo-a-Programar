@@ -1,0 +1,4 @@
+- Questão 8.2 -
+
+char vogal[] = { 'A', 'E', 'I', 'O', 'U', '\0' };
+char vogal[] = "AEIOU";

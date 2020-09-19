@@ -1,0 +1,7 @@
+- Questão 16.3 -
+
+Uma variável local só pode ser utilizada depois de ter sido declarada, um dado-membro não possui esta restrição de uso. Variáveis locais são declaradas
+dentro de funções-membro de uma classe e só podem ser usadas no corpo da função-membro onde foram declaradas; dados-membro são declarados no corpo de uma
+classe (fora do corpo das funções membro) e podem ser usados em todas as funções membro de uma classe a única restrição que dados membros devem possuir é
+que devem ser declarados sob o especificador de acesso private (para que não possam ser acessados diretamente pelo cliente da classe). Um objeto de uma
+classe mantém uma cópia separada de todos os dados-membros da classe.

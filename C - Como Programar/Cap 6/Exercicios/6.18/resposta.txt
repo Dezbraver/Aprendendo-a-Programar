@@ -1,0 +1,4 @@
+- Questão 6.18 -
+
+Imprime os elementos do array de forma reversa
+(do ultimo ao primeiro elemento) recursivamente.

@@ -1,0 +1,15 @@
+- Questão 3.16 -
+
+a) Falso. A parte mais difícil da solução de um programa é a elaboração de um
+algoritmo que solucione o problema. Com o algoritmo pronto a produção de um
+programa C funcional será uma atividade simples.
+
+b) Verdadeiro.
+
+c) Falso. As linhas de fluxo não indicam quais ações devem ser realizadas mas
+sim a sequência em que as ações devem ser realizadas.
+
+d) Falso. As condições escritas dentro de símbolos de decisão sempre contém
+operadores de igualdade ou relacionais.
+
+e) Verdadeiro.

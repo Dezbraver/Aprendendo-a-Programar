@@ -1,9 +1,0 @@
-- Questão 2.13 -
-
-a)Contém as variáveis (b), (c), (d), (e) e (f).
-
-b)Contém a variável (p) a qual não possui valor e depois recebe o valor de (i) + (j) + (k) + 7, substituindo seu valor anterior que era "Nada".
-
-c)Não Contém.
-
-d)Não Contém.

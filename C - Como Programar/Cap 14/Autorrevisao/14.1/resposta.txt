@@ -1,0 +1,39 @@
+- Questão 14.1 -
+
+a) redirecionamento de entrada (<)
+
+b) redirecionamento de saída (>)
+
+c) acréscimo de saída (>>)
+
+d) pipe (|)
+
+e) reticências (...)
+
+f) va_start
+
+g) va_arg
+
+h) va_end
+
+i) int argc
+
+j) char *argv[]
+
+k) make, makefile
+
+l) exit
+
+m) atexit
+
+n) sufixo
+
+o) tmpfile
+
+p) signal
+
+q) raise
+
+r) calloc
+
+s) realloc

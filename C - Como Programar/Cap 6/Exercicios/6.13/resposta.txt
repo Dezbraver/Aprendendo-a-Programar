@@ -1,0 +1,13 @@
+- Questão 6.13 -
+
+a) A falta de um especificador de formato "%5s" permite que o programa
+escreva caracteres na memória além do tamanho do array, a string "hello\0"
+possui 6 caracteres o que excede o número de posições disponíveis no array.
+
+b) Uso de $d como primeiro especificador de conversão e referência incorreta
+às posições no array, a[3] não existe.
+
+c) Erro causado pela inicialização de 4 elementos quando o array só dispõe de
+3 posições.
+
+d) Subscritos em formato incorreto.

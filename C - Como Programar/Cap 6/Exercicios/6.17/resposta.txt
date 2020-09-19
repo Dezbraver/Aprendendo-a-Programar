@@ -1,0 +1,4 @@
+- Questão 6.17 -
+
+Retorna a soma total de todos os elementos do array de
+10 elementos a, utilizando recursão.

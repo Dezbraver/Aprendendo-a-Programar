@@ -1,0 +1,19 @@
+- Questão 9.3 -
+
+a) printf( "%10d\n", 1234 );
+
+b) printf( "%+.3E\n", 123.456789 );
+
+c) scanf( "%lf", &number );
+
+d) printf( "%#o\n", 100 );
+
+e) scanf( "%s", string );
+
+f) scanf( "%[0123456789]", n );
+
+g) printf( "%*.*f\n", x, y, 87.4573 );
+
+h) scanf( "%f%%", &percent );
+
+i) printf( "%+20.3Lf\n", 3.333333 );

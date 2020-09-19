@@ -1,0 +1,13 @@
+- Questão 5.2 -
+
+a) escopo de bloco
+
+b) escopo de bloco
+
+c) escopo de arquivo
+
+d) escopo de arquivo
+
+e) escopo de arquivo
+
+f) escopo de protótipo de função

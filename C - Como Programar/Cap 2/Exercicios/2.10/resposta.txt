@@ -1,0 +1,13 @@
+- Questão 2.10 -
+
+a)Falso. Existe uma exceção, o operador de atribuição, o qual avalia da direita para a esquerda.
+
+b)Verdadeiro. Porém deve-se tomar cuidado com identificadores de variável como _sub_barra_ pois ela começa com sublinhado (_) isso pode se tornar um problema já que o compilador ou
+a biblioteca-padrão podem utilizar identificadores semelhantes.
+
+c)Falso. Tudo que está dentro da mensagem em uma função printf é mostrado na tela e não atribuido a nada. Caso a instrução de atribuição estivesse fora da literal e fora da função
+printf então sim ela executaria a atribuição propriamente dita.
+
+d)Verdadeiro.
+
+e)Falso. Todos são inválidos com exceção de h22.

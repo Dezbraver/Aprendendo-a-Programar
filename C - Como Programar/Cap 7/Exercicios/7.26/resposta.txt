@@ -1,0 +1,7 @@
+- Questão 7.26 -
+
+Verifica se uma string está contida no início da outra, por exemplo: a string "Ave" está contida na string "Aves" retornando 1,
+entretanto "Ave", não está contida no início de "Uma Ave". A ordem das strings na função não importa, se alguma delas estiver
+contida no início da outra o programa exibirá o resultado 1, caso contrário, exibirá o resultado 0.
+A função mystery3, quando usada para saber se uma string é igual a outra, deve ser usada com cautela pois no caso das
+strings não serem iguais uma das strings não poderá conter a outra em seu início, pois nesse caso a função retornaria 1.

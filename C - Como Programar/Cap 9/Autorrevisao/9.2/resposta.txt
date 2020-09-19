@@ -1,0 +1,41 @@
+- Questão 9.2 -
+
+a)
+Erro: Uso do especificador de conversão s para o tipo caractere.
+
+Correção: Substituição do especificador de conversão s pelo c.
+
+b)
+Erro: Uso de % como um caractere literal.
+
+Correção: para ser tratado como literal na string de controle de
+formato, % deve ser inserido com o especificador de conversão %%.
+
+c)
+Erro: Uso do especificador de conversão c para o tipo ponteiro para
+char (um endereço de memória não pode ser lido como um caractere).
+
+Correção: uso do especificador de conversão s com precisão .1 a sua esquerda (%.1s).
+
+d)
+Erro: Utilização de aspas duplas (") como literais.
+
+Correção: Substituição das aspas duplas por sequências de escape \".
+
+e)
+Erro: Falta das aspas duplas (") delimitando a string de controle de formato.
+
+Correção: Inserção das aspas duplas (") no início e no fim da string de controle
+de formato.
+
+f)
+Erro: Utilização de aspas duplas (") como delimitadores do caractere literal 'x'.
+
+Correção: Substituição das aspas duplas (") por aspas simples (') na delimitação
+do caractere literal 'x'.
+
+g)
+Erro: Utilização de aspas simples (') como delimitadores da string "Ricardo".
+
+Correção: Substituição das aspas simples (') por aspas duplas (") como
+delimitadores da string "Ricardo".

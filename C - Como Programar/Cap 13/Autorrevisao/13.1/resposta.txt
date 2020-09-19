@@ -1,0 +1,27 @@
+- Questão 13.1 -
+
+a) #
+
+b) #elif, #else
+
+c) #define
+
+d) espaço em branco
+
+e) #undef
+
+f) #ifdef, #ifndef
+
+g) compilação condicional
+
+h) assert
+
+i) #include
+
+j) ##
+
+k) #
+
+l) \
+
+m) #line

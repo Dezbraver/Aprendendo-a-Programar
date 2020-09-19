@@ -1,3 +1,0 @@
-- Questão 4.8 -
-
-Imprime uma matriz bidimensional de dimensão (y) x (x) de caracteres (@).

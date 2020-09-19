@@ -1,0 +1,17 @@
+- Questão 6.7 -
+
+a) Falso. Não é o valor do elemento que é especificado e sim a posição do array
+que corresponde àquele valor (entre colchetes).
+
+b) Verdadeiro.
+
+c) Falso. O tipo de dados que serão armazenados no array deve ser especificado no
+início da declaração, como em int p[100].
+
+d) Falso. O programa não precisa conter uma estrutura for caso utilize a seguinte
+notação: int a[15] = { 0 }, porém caso não inicialize da forma anterior, somente
+uma estrutura for será necessária.
+
+e) Verdadeiro.
+
+f) Verdadeiro.

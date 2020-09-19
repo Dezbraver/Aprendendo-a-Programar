@@ -1,0 +1,19 @@
+- Questão 21.1 -
+
+a) objeto da classe derivada
+
+b) switch
+
+c) abstrata
+
+d) concretas
+
+e) dynamic_cast
+
+f) type_info
+
+g) Polimorfismo
+
+h) virtual
+
+i) downcast

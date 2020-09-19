@@ -1,0 +1,7 @@
+- Questão 2.28 -
+
+Um erro fatal aborta a execução do programa, enquanto um erro não fatal ocasiona uma execução bem sucedida porém com resultados incorretos.
+Seria melhor experimentar um erro fatal pois este seria de mais fácil depuração (como uma divisão por zero), porque você saberia em que parte o programa parou sua execução,
+enquanto o erro não fatal faria com que você tivesse que sondar o código em busca de erros de lógica (como o uso de um operador de endereço [&] em um printf, que printaria a
+posição da memória em que o valor está armazenado em vez do valor em si), o que é bem menos óbvio e se estiver em um código muito extenso, pode demandar horas ou dias para ser
+notado.

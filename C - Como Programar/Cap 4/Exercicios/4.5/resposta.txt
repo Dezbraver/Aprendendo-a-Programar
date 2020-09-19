@@ -1,0 +1,26 @@
+- Questão 4.5 -
+
+a) Uso de letra maiúscula na palavra chave (for) e uso incorreto do operador de
+incremento/decremento.
+
+b) A falta do break no case 0 iria ocasionar q quando um número fosse par o
+programa iria imprimir as duas afirmações pois executaria também as instruções
+do case 1.
+
+c) Os caracteres de espaçamento não são tratados. gerando resultado incorreto,
+pois a função getchar() lê somente um caractere e não faz distinção de caracteres
+de espaçamento.
+
+d) Uso de números do tipo ponto flutuante para controlar a execução do laço for
+e o mau uso do operador relacional durante a condição do laço.
+
+e) Mal uso do operador de atribuição com adição como incremento/decremento da
+variável de controle do laço.
+
+f) Uso de letra maiúscula nas palavras chave (do) e (while), uso desnecessário
+de verificação do número já que o contador incrementa o número de dois em dois
+(printf deveria estar fora da verificação) e uso errôneo do operador relacional
+na condição do while.
+
+g) Uso incorreto de (;) antes da chave de abertura do bloco de instruções da
+ estrutura (for).

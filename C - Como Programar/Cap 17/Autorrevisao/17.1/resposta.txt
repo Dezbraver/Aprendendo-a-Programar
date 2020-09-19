@@ -1,0 +1,9 @@
+- Questão 17.1 -
+
+a) de ponto (.), de seta (->)
+
+b) private
+
+c) public
+
+d) atribuição de cópia membro-à-membro default

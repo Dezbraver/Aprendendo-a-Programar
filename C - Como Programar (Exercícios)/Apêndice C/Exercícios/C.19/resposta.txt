@@ -1,6 +1,0 @@
-- Questão C.19 -
-
-hexadecimal = 3A7D
-
-binário = 3    A    7    D
-         0011 1010 0111 1101

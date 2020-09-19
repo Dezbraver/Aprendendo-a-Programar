@@ -1,0 +1,17 @@
+- Questão 10.2 -
+
+a) Falso. Estruturas podem conter todos os tipos de dados primitivos ou agregações como arrays e outras estruturas.
+
+b) Falso. Uniões não podem ser comparados usando (==) ou (!=) pois podem haver valores indefinidos armazenados nas
+variáveis da união, já que não é possível prefer o seu valor, logo não podemos comparar duas uniões.
+
+c) Verdadeiro.
+
+d) Falso. Os membros de estruturas diferentes podem ter o mesmo nome, porém os membros de uma mesma estrutura devem
+ter nomes exclusivos.
+
+e) Falso. A palavra-chave typedef é utilizada para definir um sinônimo para um tipo de dado préviamente definido.
+
+f) Falso. Estruturas, por padrão, são passadas com chamadas por valor a menos que seja passado o endereço da estrutura.
+
+g) Verdadeiro, devido aos problemas de alinhamento.

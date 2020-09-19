@@ -1,0 +1,7 @@
+- Questão 19.2 -
+
+O operador << é tanto o operador de deslocamento binário à esquerda
+quanto o operador de inserção de stream a depender do seu contexto.
+
+O operador >> é tanto o operador de deslocamento binário à direita
+quanto o operador de extração de stream a depender do seu contexto.

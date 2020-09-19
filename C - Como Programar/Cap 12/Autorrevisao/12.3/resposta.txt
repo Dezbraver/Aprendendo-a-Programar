@@ -1,0 +1,5 @@
+- Questão 12.3 -
+
+Uma pilha tem seus dados inseridos e excluídos a partir do seu topo (o início da pilha).
+As filas tem seus dados inseridos em sua cauda (fim da fila) e excluídos em sua cabeça (início da fila),
+usando 2 ponteiros pra isso enquanto a pilha só precisa de 1 ponteiro.

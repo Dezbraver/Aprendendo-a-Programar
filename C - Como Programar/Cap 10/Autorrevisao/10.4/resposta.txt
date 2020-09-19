@@ -1,0 +1,20 @@
+- Questão 10.4 -
+
+a) Não foi utilizado parênteses ao redor do operando à esquerda do operador de seta (->). O uso dos parênteses
+é necessário pois a precedência do operador de ponteiro da estrutura (->) é maior do que a do operador de
+indireção (*). A forma correta seria ( *cPtr )->face.
+
+b) Não foi utilizada a notação de subscrito para selecionar o elemento 10 do array copas. a notação correta seria
+copas[ 10 ].face.
+
+c) A variável do tipo union valores foi inicializada com um tipo diferente do tipo da primeira variável da união.
+A variável de união deve ser inicializada com um tipo char para este caso.
+
+d) Não foi utilizado o caractere ponto e vírgula (;) para encerrar a declaração da struct. Deve-se colocar um ponto
+e vírgula ao lado da chave à direta para encerrar a estrutura.
+
+e) Não foi utilizada a palavra chave struct para declarar a variável de estrutura. Deve-se utilizar a notação a
+seguir: struct pessoa d;
+
+f) O erro está na tentativa de atribuir a uma variável do tipo de uma estrutura uma variável do tipo de outro
+estrutura. 

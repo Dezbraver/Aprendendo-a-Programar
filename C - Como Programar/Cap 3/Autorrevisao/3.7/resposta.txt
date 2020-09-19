@@ -1,0 +1,17 @@
+- Questão 3.7 -
+
+a) scanf( "%d", &x );
+
+b) scanf( "%d", &y );
+
+c) i = 1;
+
+d) potencia = 1;
+
+e) potencia *= x;
+
+f) i++;
+
+g) while( i >= y ) {}
+
+h) printf( "%d", potencia );

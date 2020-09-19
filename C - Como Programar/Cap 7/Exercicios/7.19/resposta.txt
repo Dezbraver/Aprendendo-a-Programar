@@ -1,0 +1,4 @@
+- Questão 7.19 -
+
+Acrescenta o conteúdo da string s2 à string s1 substituindo o caractere '\0' da primeira string pelo primeiro
+caractere na segunda string. 

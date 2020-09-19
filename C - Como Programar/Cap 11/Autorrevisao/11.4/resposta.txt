@@ -1,0 +1,30 @@
+- Questão 11.4 -
+
+a)
+Erro: O arquivo pagáveis.dat não foi aberto antes da referência ao seu ponteiro de arquivo.
+
+Correção: Usar fopen para abrir o arquivo para gravação, acréscimo ou atualização
+e atribua seu resultado à fPtr.
+
+b)
+Erro: open não é uma função C padrão.
+
+Correção: Substituir open por fopen.
+
+c)
+Erro: Referência ao ponteiro de arquivo incorreto na chamada da função.
+
+Correção: substitua o argumento recPtr por payPtr para se referir a "pagáveis.dat".
+
+d)
+Erro: O conteúdo do é descartado pois o arquivo está sendo aberto em modo de gravação "w".
+
+Correção: Em vez de "w", para acrescentar dados ao arquivo sem descartar os dados atuais, utilize
+o modo "a" ou o modo "r+".
+
+e)
+Erro: O arquivo "cursos.dat" está sendo aberto no modo de gravação e atualização "w+" que descarta
+o conteúdo atual.
+
+Correção: Em vez de "w+", utilize "a", para acrescentar ao fim do arquivo sem alterar seu conteúdo
+atual.

@@ -1,0 +1,14 @@
+- Questão 22.2 -
+
+a) especializações de template de função,
+especializações de template de classe
+
+b) template, (<) e (>)
+
+c) sobrecarga
+
+d) dinâmicos
+
+e) resolução binária de escopo
+
+f) namespace global.

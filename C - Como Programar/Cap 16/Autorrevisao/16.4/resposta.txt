@@ -1,0 +1,10 @@
+- Questão 16.4 -
+
+Um parâmetro de função tem como finalidade receber um valor de argumento de uma chamada de função possibilitando seu tratamento dentro
+do corpo da função. Um parâmetro também especifica um tipo de dado e um nome para que quando receba um argumento possa manipulá-lo de
+forma coerente.
+Um parâmetro é especificado como uma declaração de variável (especificando o tipo e o nome do parâmetro) em uma lista de parâmetros em
+protótipos ou declarações de uma função, enquanto um argumento é um valor passado em uma lista de argumentos durante uma chamada de
+função que deve ser coerente com o parâmetro especificado no protótipo ou na declaração de uma função. A lista de argumentos em uma
+chamada de função deve seguir a mesma ordem da lista de parâmetros da função chamada, esta ordem se encontra tanto no protótipo da função
+quanto na declaração da função.

@@ -1,0 +1,45 @@
+- Questão 9.1 -
+
+a) streams
+
+b) entrada-padrão
+
+c) saída-padrão
+
+d) printf
+
+e) literais, especificadores de conversão, larguras de campo, precisões, flags
+
+f) d, i
+
+g) o, u, x (ou X)
+
+h) h, l
+
+i) e (ou E)
+
+j) L
+
+k) 6
+
+l) s, c
+
+m) NULL ('\0')
+
+n) asterisco (*)
+
+o) - (subtração)
+
+p) + (adição)
+
+q) scanf
+
+r) conjunto de varredura
+
+s) i
+
+t) lf, le, lE, lg ou lG
+
+u) caractere de supressão de atribuição (*)
+
+v) largura de campo

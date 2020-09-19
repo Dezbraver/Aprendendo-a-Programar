@@ -1,0 +1,21 @@
+- Questão 16.1 -
+
+a) objeto
+
+b) class
+
+c) .h
+
+d) tipo, nome
+
+e) dado-membro
+
+f) especificador de acesso
+
+g) void
+
+h) getline
+
+i) operador binário de resolução de escopo (::)
+
+j) #include

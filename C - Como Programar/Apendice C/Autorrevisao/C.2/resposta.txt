@@ -1,0 +1,7 @@
+- Questão C.2 -
+
+a) Falso. Essa afirmação descreve o sistema hexadecimal, não o decimal.
+
+b) Falso. É um a menos que a base, não um a mais.
+
+c) Falso. O dígito mais baixo em qualquer base é o 0.

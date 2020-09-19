@@ -1,0 +1,39 @@
+- Questão 3.11 -
+
+a) Erro: Uso do ponto e vírgula após a expressão condicional da estrutura de controle de seleção 'if'.
+Correção: A remoção do ponto e vírgula após a expressão condicional da estrutura de controle de seleção 'if'.
+if( idade >= 65 )
+  printf( "Idade é maior ou igual a
+  65\n" );
+else
+  printf( "Idade é menor que 65\n" );
+
+b) Erro: A variável 'total' não foi inicializada, portanto irá apontar para um valor de lixo localizado
+na posição de memória relacionada.
+Correção: Realizar a inicialização da variável 'total' com um valor inteiro desejado (e.g. o valor 0).
+int x = 1, total = 0;
+
+while( x <= 10 ) {
+  total += x;
+  ++x;
+}
+
+c) Erro 1: A falta das chaves da esquerda e da direita da estrutura de controle de repetição 'while'
+já que utiliza uma instrução composta em seu corpo.
+Correção 1: A Inclusão de ambas as chaves da estrutura de controle de repetição 'while'.
+while( x <= 100 )
+{
+  total += x;
+  ++x;
+}
+
+Erro 2: Poderia se olhar por outro ângulo e ver a instrução de incremento da variável 'x' como um erro
+já que a estrutura 'while' não possui chaves.
+Correção 2: A remoção dessa instrução e a utilização do incremento pós-fixo na instrução de cálculo do
+total.
+while( x <= 100 )
+  total += x++;
+
+d) Erro: A variável 'y' está sendo incrementada no corpo da estrutura de controle de repetição 'while'
+fazendo com que a condição do laço nunca se torne falsa.
+Correção: Substituir a instrução de incremento de 'y' por uma instrução de decremento de 'y'.

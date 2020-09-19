@@ -1,0 +1,19 @@
+- Questão 17.2 -
+
+a)
+Erro: Destrutores não possuem parâmetros nem podem especificar tipos de retorno (ou retornar valores).
+
+Correção: Remover o parâmetro int e o tipo de retorno void. 
+
+b)
+Erro: Dados-membro não podem ser inicializados explicitamente em sua declaração no escopo da classe.
+
+Correção: Retirar as inicializações explícitas dos dados-membro deixando somente suas declarações e
+inicializar os dados membros a partir do construtor da classe ou de uma função-membro chamada pelo
+construtor.
+
+c)
+Erro: Construtores assim como destrutores não precisam especificar tipo de retorno pois não podem
+retornar valores.
+
+Correção: Remover a especificação de tipo de retorno int do protótipo do construtor Employee.

@@ -1,0 +1,17 @@
+- Questão 21.2 -
+
+a) Falso. Uma classe-base abstrata pode conter funções virtuais
+com implementações.
+
+b) Falso. Perigoso é referir-se a um objeto de classe base com
+um handle de classe derivada.
+
+c) Falso. As classes nunca são declaradas como virtuais. Uma
+classe se torna abstrata ao possuir pelo menos uma função
+virtual pura.
+
+d) Falso. Para exigir de uma classe derivada a implementação da
+função, a função deve ser declarada na classe-base abstrata como
+uma função virtual pura.
+
+e) Verdadeiro.

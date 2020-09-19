@@ -1,0 +1,31 @@
+- Questão 12.1 -
+
+a) autorreferenciada
+
+b) malloc
+
+c) pilha
+
+d) funções predicado
+
+e) primeiro a entrar primeiro a sair (FIFO - First In First Out)
+
+f) link
+
+g) free
+
+h) fila
+
+i) árvore
+
+j) último a entrar primeiro a sair (LIFO - Last In First Out)
+
+k) binária
+
+l) raiz
+
+m) filho, subárvore
+
+n) folha
+
+o) em ordem (inOrder), pré-ordem (preOrder), pós-ordem (postOrder)

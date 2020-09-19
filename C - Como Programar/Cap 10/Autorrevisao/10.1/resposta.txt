@@ -1,0 +1,29 @@
+- Questão 10.1 -
+
+a) estrutura
+
+b) união
+
+c) AND sobre bits (&)
+
+d) membros
+
+e) OR inclusivo sobre bits (|)
+
+f) struct
+
+g) typedef
+
+h) OR exclusivo sobre bits (^)
+
+i) mascarar
+
+j) union
+
+k) nome de tag
+
+l) membro da estrutura (.), ponteiro da estrutura ou operador de seta (->)
+
+m) deslocamento à esquerda (<<), deslocamento à direita (>>)
+
+n) enumeração

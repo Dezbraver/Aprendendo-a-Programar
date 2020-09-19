@@ -1,0 +1,4 @@
+- Questão 19.3 -
+
+Para sobrecarga de operador: ele seria o nome de uma função que ofereceria
+uma versão sobrecarregada do operador / para uma classe específica. 

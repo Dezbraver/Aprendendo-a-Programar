@@ -1,0 +1,18 @@
+- Questão 22.1 -
+
+a) Verdadeiro.
+
+b) Falso. Significam que a palavra ao lado é o nome de um tipo.
+esse tipo pode ser definido pelo usuário ou não.
+
+c) Verdadeiro.
+
+d) Falso. Os nomes de parâmetros de template podem se repetir
+entre diferentes templates. 
+
+e) Verdadeiro.
+
+f) Falso. Ela poderia ser uma função não template.
+
+g) Falso. Cada especialização de template de classe recebe uma
+cópia separada do dado membro static.

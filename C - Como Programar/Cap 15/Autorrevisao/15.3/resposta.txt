@@ -1,0 +1,5 @@
+- Questão 15.3 -
+
+Falso. Usando o operador de referência (&) para definir o tipo de
+um parâmetro, este será passado à função por referência.
+ex.: function( int &x ) ou function( int& x ).

@@ -1,0 +1,51 @@
+- Questão 6.12 -
+
+a)
+counts[0] = 0;
+counts[1] = 0;
+counts[2] = 0;
+counts[3] = 0;
+counts[4] = 0;
+counts[5] = 0;
+counts[6] = 0;
+counts[7] = 0;
+counts[8] = 0;
+counts[9] = 0;
+
+b)
+++bonus[0];
+++bonus[1];
+++bonus[2];
+++bonus[3];
+++bonus[4];
+++bonus[5];
+++bonus[6];
+++bonus[7];
+++bonus[8];
+++bonus[9];
+++bonus[10];
+++bonus[11];
+++bonus[12];
+++bonus[13];
+++bonus[14];
+
+c)
+scanf( "%f", &tempPorMes[0] );
+scanf( "%f", &tempPorMes[1] );
+scanf( "%f", &tempPorMes[2] );
+scanf( "%f", &tempPorMes[3] );
+scanf( "%f", &tempPorMes[4] );
+scanf( "%f", &tempPorMes[5] );
+scanf( "%f", &tempPorMes[6] );
+scanf( "%f", &tempPorMes[7] );
+scanf( "%f", &tempPorMes[8] );
+scanf( "%f", &tempPorMes[9] );
+scanf( "%f", &tempPorMes[10] );
+scanf( "%f", &tempPorMes[11] );
+
+d)
+printf( "%d\n", bestScores[0] );
+printf( "%d\n", bestScores[1] );
+printf( "%d\n", bestScores[2] );
+printf( "%d\n", bestScores[3] );
+printf( "%d\n", bestScores[4] );

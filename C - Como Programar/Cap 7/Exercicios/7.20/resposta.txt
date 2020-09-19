@@ -1,0 +1,3 @@
+- Questão 7.20 -
+
+Imprime o tamanho da string sem incluir o caractere nulo de finalização '\0'.

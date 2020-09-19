@@ -1,0 +1,9 @@
+- Questão 2.9 -
+
+a)printf( "'Digite dois numeros'" );
+
+b)a = b * c;
+
+c)/* Este programa calcula folha de pagamento */
+
+d)scanf( "%d%d%d", &a, &b, &c );

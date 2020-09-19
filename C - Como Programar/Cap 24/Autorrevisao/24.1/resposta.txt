@@ -1,0 +1,7 @@
+- Questão 24.1 -
+
+1º - out_of_range
+2º - overflow
+3º - underflow
+4º - length_error
+5º - invalid_argument

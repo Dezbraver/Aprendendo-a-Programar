@@ -1,0 +1,10 @@
+- Questão 18.2 -
+
+Erro(1): Uso de const em uma função que modifica o objeto da classe.
+
+Correção(1): Retirar o qualificador const da função getIncremented data.
+
+Erro(2): A função getCount é static e não pode utilizar dados-membro não
+static.
+
+Correção(2): Remova a linha de saída da definição de getCount.

@@ -1,0 +1,31 @@
+- Questão 23.1 -
+
+a) streams
+
+b) left, right, internal
+
+c) flags
+
+d) iostream
+
+e) iomanip
+
+f) fstream
+
+g) write
+
+h) istream
+
+i) cerr, clog
+
+j) ostream
+
+k) <<
+
+l) cin, cout, cerr, clog
+
+m) >>
+
+n) oct, hex, dec
+
+o) showpos

@@ -1,0 +1,19 @@
+- Questão 10.3 -
+
+a)
+struct peca {
+    int numPeca;
+    char nomePeca[ 26 ];
+};
+
+b) typedef struct peca Peca;
+
+c) Peca a, b[ 10 ], *ptr;
+
+d) scanf( "%d%25s", &a.numPeca, &a.nomePeca );
+
+e) b[ 3 ] = a;
+
+f) ptr = b;
+
+g) printf( "%d\n%s\n", ptr + 3->numPeca, ptr + 3->nomePeca );

@@ -1,0 +1,21 @@
+- Questão 6.6 -
+
+a) arrays
+
+b) possuem o mesmo tipo e nome
+
+c) subscrito
+
+d) p[0], p[1], p[2], p[3], p[4]
+
+e) valor
+
+f) declarar
+
+g) ordenação
+
+h) linha, coluna
+
+i) m, n, m vezes n
+
+j) d[3][5]

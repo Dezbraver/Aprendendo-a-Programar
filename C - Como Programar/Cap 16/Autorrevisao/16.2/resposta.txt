@@ -1,0 +1,16 @@
+- Questão 16.2 -
+
+a) Falso. A convenção é de que a primeira palavra começe com uma letra minúscula e as palavras seguintes comecem com uma letra maiúscula.
+
+b) Verdadeiro.
+
+c) Verdadeiro.
+
+d) Falso. As variáveis declaradas no corpo de uma função membro são conhecidas como variáveis locais e não podem ser usadas fora do escopo da
+função-membro em que foram declaradas.
+
+e) Verdadeiro.
+
+f) Verdadeiro.
+
+g) Verdadeiro.

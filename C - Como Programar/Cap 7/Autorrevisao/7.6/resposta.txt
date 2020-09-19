@@ -1,0 +1,31 @@
+- Questão 7.6 -
+
+a) Erro: A letra "P" está minúscula e não foi atribuído nenhum endereço ao ponteiro zPtr
+para que possa ser incrementado (zPtr não foi incrementado).
+
+Correção: Atribuir z à zPtr, para então poder fazer a aritmética de ponteiro.
+
+b) Erro: O ponteiro zPtr não foi desferenciado fazendo com que seja atribuído o endereço
+do elemento 0 do array z à number.
+
+Correção: Mudar a instrução para number = *zPtr;
+
+c) Erro: Uso indevido do operador de indireção em uma notação de ponteiro/subscrito.
+
+Correção: Retirar o o perador de indireção.
+
+d) Erro: Operador relacional incorreto.
+
+Correção: Trocar o operador relacional para < (sem a igualdade), assim não ocorreria da função
+printf tentar acessar um valor em uma posição de memória após o fim do array.
+
+e) Erro: Desreferenciar um ponteiro void.
+
+Correção: Realizar uma operação de cast para mudar o tipo do objeto apontado pelo ponteiro para int.
+Mude a instrução para number = *( ( int * ) sPtr );
+
+f) Erro: Não se pode incrementar um nome de um array pois é um ponteiro constante para valores
+não constantes.
+
+Correção: Usar uma variável de ponteiro em vez do nome do array para possibilitar o uso da atitmética
+de ponteiro, ou utilizar a notação array/subscrito para se referir a um valor específico.

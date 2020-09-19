@@ -1,0 +1,54 @@
+- Questão 4.35 -
+
+Criaria uma variável de controle
+
+e.g.:
+int b = 0;
+
+Obs.: o valor de b mudará para 1 quando quisermos sair do laço.
+
+Alteraria a condição do loop da seguinte forma:
+
+e.g.:
+while ( i <= 5 && b == 0 )
+{
+  ...
+}
+
+Obs.: Mesmo que a condição principal ( i <= 5 ) seja verdadeira, se b == 0 for
+falso o loop irá parar sua execução, isso acontecerá quando atribuirmos o valor
+1 à b, mas poderia ser qualquer valor diferente de 0.
+
+Usaria uma estrutura de controle de seleção dupla (if...else) para atestar que o
+restante do laço não seria executado caso a condição que mudaria o valor de b
+para 1 fosse verdadeira, imediatamente verificaria novamente a condição do laço.
+
+e.g.:
+while ( i <= 5 && b == 0 )
+{
+  if ( i == 3 )
+    b = 1;
+  else
+  {
+    printf( "%d\n", i );
+    ++i;
+  }
+}
+
+Use o incremento/decremento dentro do corpo do laço --- dentro do corpo do
+(else) --- pois o incremento só deverá ser executado caso b == 0. Evitando
+problemas se utilizarmos o valor da variável de controle principal após o laço.
+Lembre-se também de alterar, se necessário, o valor de inicialização da variável
+de controle para que se adeque ao seu incremento/decremento;
+
+e.g.:
+for ( i = 1, b = 0; i <= 5 && b == 0; )
+{
+  if ( i == 3 )
+    b = 1;
+  else
+  {
+    printf( "%d ", i );
+    i++;
+  }
+}

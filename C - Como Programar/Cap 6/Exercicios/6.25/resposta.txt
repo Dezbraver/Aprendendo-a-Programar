@@ -1,0 +1,15 @@
+- Questão 6.25 -
+
+a) Até o movimento 50.
+
+b) 372º passeio com 58 movimentos.
+
+c) O programa ficou executando durante umas 7 horas e não produziu o resultado desejado. Provavelmente a probabilidade
+de acontecer é baixíssima.
+
+d) A questão da heurística de acessibilidade. O da heurística de acessibilidade. O da força bruta. Não. Sim.
+O problema pela força bruta é mais facil de implementar e temos a idéia de que alguma hora irá realizar o
+passeio completo, porém exige um computador muito poderoso para se obter o resultado rapidamente (ou muita
+mais muita sorte mesmo) demora horas para terminar sua execução (estou a horas e o proma ainda não terminou
+de executar), chego a pensar se irá terminar de fato a execução ou se o programa só está travado mesmo e eu
+estou esperando à toa.

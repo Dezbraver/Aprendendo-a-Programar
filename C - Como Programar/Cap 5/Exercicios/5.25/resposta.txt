@@ -1,0 +1,13 @@
+- Questão 5.25 -
+
+float smallest( float n1, float n2, float n3 )
+{
+  float menor = n1;
+
+  if ( n2 < menor )
+    menor = n2;
+  if ( n3 < menor )
+    menor = n3;
+
+  return menor;
+} /* fim [smallest] */

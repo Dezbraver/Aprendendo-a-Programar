@@ -1,0 +1,59 @@
+- Questão 2.7 -
+
+a)Falta o caractere (%) no especificador de conversão da string de controle de formato, e o caractere (& - operador de endereço) ao lado do nome da variável (valor).
+A instrução escrita de forma correta seria assim:
+scanf( "%d", &valor );
+
+b)A sequencia de escape (\n) foi escrita após as aspas que encerram a string de controle de formato, além de que foram inseridos três especificadores de conversão na
+string de controle de formato, quando são lidos apenas os valores de duas variáveis, nesse caso a opção correta seria inserir uma terceira variável que iria conter o
+resultado do produto de x e y. O terceiro erro é que não se deve possuir acentuação gráfica nos caracteres literais da string de controle de formato.
+A instrução escrita de forma correta seria assim:
+printf( "O produto de %d e %d eh %d\n", x, y, resultado );
+
+c)Não devem existir acentuações nos nomes das variáveis e o operador de atribuição (=) possui associatividade da direita para a esquerda, devendo do seu lado esquerdo
+estar o identificador da variável e a direita estar a expressão a ser atribuida àquela variavel referenciada pelo identificador (senão estaríamos "salvando um 
+identificador de variável em uma expressão" e isto não é possível ["ºwº]). O terceiro erro é que ao final da instrução não foi utilizado o terminador de instrução (;).
+A instrução escrita de forma correta seria assim:
+somaDosNumeros = primeiroNumero + segundoNumero;
+
+d)O primeiro erro está na inversão do operador relacional (>=) que foi digitado desta forma (=>). O segundo erro está na troca confusa do operador de atribuição (=) para
+o operador de igualdade (==) dentro do corpo da estrutura if. O terceiro erro está no uso de acentuação gráfica no identificador da palavra número (não deve haver
+acentuações gráficas em identificadores).
+A instrução escrita de forma correta seria assim:
+if ( numero >= maior )
+   maior = numero;
+
+e)Os caracteres de inicialização e finalização do comentário estão trocados.
+A instrução escrita de forma correta seria assim:
+/* Programa para determinar o maior
+dentre três inteiros */
+
+f)O primeiro erro é que C diferencia maiúsculas e minúsculas por isso Scanf com a letra "s" maiúscula está errado devendo ser scanf com "s" minúsculo. O segundo erro é a falta
+do operador de endereço (&) ao lado do identificador da variável (umInteiro).
+A instrução escrita de forma correta seria assim:
+scanf( "%d", &umInteiro);
+
+g)O primeiro erro é a falta de um espaço seguido de um especificador de conversão (%d) na string de controle de formato para que o valor do módulo de x dividido por y seja mostrado
+na tela. O segundo erro é que não se deve possuir acentuação gráfica nos caracteres literais da string de controle de formato.
+A instrução escrita de forma correta seria assim:
+printf( "Modulo de %d dividido por %d eh %d\n", x, y, x % y );
+
+h)O primeiro erro é que o operador relacional (==) foi trocado por um operador de atribuição (=) na definição da condição da estrutura if. O segundo erro é a má utilização do
+terminador de instrução após o parêntese que encerra a definição da condição da estrutura if, isso faz com que o if execute uma instrução vazia se a sua condição for verdadeira
+e a instrução que deveria no corpo da estrutura if seja executada independente da estrutura if, como se estivesse fora do corpo da if. O segundo erro é a falta das aspas (") no início
+da string de controle de formato. O terceiro erro é que não se deve possuir acentuação gráfica nos caracteres literais da string de controle de formato.
+A instrução escrita de forma correta seria assim:
+if ( x == y )
+   printf( "%d eh igual a %d\n", x, y );
+
+i)O primeiro erro é a falta do "f" na função printf da biblioteca-padrão de entrada e saída (stdio). O segundo erro é o fato da vírgula que deve ser posta após a string de controle de formato
+estar presente dentro da string de controle de formato, esta vírgula deve ser usada para separar os argumentos passados à função. O terceiro erro é que não se deve possuir acentuação gráfica
+nos caracteres literais da string de controle de formato.
+A instrução escrita de forma correta seria assim:
+printf( "A soma eh %d\n", x + y );
+
+j)O primeiro erro está na primeira letra do nome da função que é maiúscula (Printf) quando deveria ser minúscula (printf). O segundo erro está na ausência das aspas (") que finalizam a string
+de controle de formato. O terciero erro está na utilização do operador de endereço (&) ao lado do identificador da variável (valor). O quarto erro é que não se deve possuir acentuação gráfica
+nos caracteres literais da string de controle de formato.
+A instrução escrita de forma correta seria assim:
+printf( "O valor que você digitou eh: %d\n", valor );

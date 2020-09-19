@@ -1,0 +1,7 @@
+- Questão 6.24 -
+
+a) 32. Sim, consegui chegar até 39.
+
+b) O cavalo fez 26 movimentos. Começando a partir da posição do exemplo no livro.
+
+c) Sim. No mínimo 60 (pelo menos as vezes que testei) e no máximo 64 passeios.
